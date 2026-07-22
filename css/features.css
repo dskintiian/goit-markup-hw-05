@@ -1,0 +1,31 @@
+.features-list {
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.features-list li {
+  display: block;
+  width: calc(100% / 4 - 18px);
+}
+
+.features-list li h3 {
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.feature-icon-box {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  height: 112px;
+  margin-bottom: 8px;
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 24px auto;
+}
